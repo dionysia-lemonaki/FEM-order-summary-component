@@ -1,0 +1,68 @@
+/* Design System */
+:root {
+    --pale-blue: #e0e8ff;
+    --desaturated-blue: #7280a7;
+    --white: #fff;
+    
+}
+
+/* Global Styles */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.6;
+    letter-spacing: 0;
+    padding: 24px;
+    background-color: var(--pale-blue);
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.card {
+    background-color: var(--white);
+    max-width: 28.125rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 40px 40px -20px var(--desaturated-blue);
+}
+
+.card-content {
+    padding: 32px;
+}
+
+.card-description {
+    max-width: 22.125rem;
+    margin-inline: auto;
+}
+
+@media (min-width:43.75rem) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+
+    .card-content {
+        padding: 48px;
+    }
+}
