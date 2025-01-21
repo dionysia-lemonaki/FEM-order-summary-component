@@ -1,7 +1,9 @@
 /* Design System */
 :root {
     --pale-blue: #e0e8ff;
+    --very-pale-blue: #f5f7ff;
     --desaturated-blue: #7280a7;
+    --bright-blue: #3829e0;
     --dark-blue: #1f2f56;
     --white: #fff;
     
@@ -78,6 +80,50 @@ img {
     color: var(--desaturated-blue);
 }
 
+.plan {
+    margin-top: 20px;
+    background-color: var(--very-pale-blue);
+    border-radius: 11px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-details {
+    margin-left: 20px;
+}
+
+.plan-type {
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 0.875rem;
+}
+
+.plan-price {
+    font-size: 0.875rem;
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
+
+.btn-change-plan {
+    color: var(--bright-blue);
+    font-size: 0.813rem;
+    font-weight: 700;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.btn-change-plan:hover,
+.btn-change-plan:focus {
+    text-decoration: none;
+}
+
+.push {
+    margin-left: auto;
+}
+
 /* Styles for larger screens */
 
 @media (min-width:43.75rem) {
@@ -93,7 +139,9 @@ img {
         font-size: 1.75rem;
     }
 
-    .card-description {
+    .card-description,
+    .plan-type,
+    .plan-price {
         font-size: 1rem;
     }
 }
