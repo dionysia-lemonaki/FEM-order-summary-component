@@ -6,7 +6,6 @@
     --bright-blue: #3829e0;
     --dark-blue: #1f2f56;
     --white: #fff;
-    
 }
 
 /* Fonts */
@@ -119,6 +118,41 @@ img {
 .btn-change-plan:hover,
 .btn-change-plan:focus {
     text-decoration: none;
+    color: #766CF1;
+}
+
+.btn-payment {
+    display: block;
+    margin-top: 24px;
+    text-decoration: none;
+    background-color: var(--bright-blue);
+    color: var(--white);
+    border-radius: 11px;
+    padding: 10px;
+    box-shadow: 0 20px 30px -8px var(--dark-blue);
+    font-size: 0.938rem;
+    font-weight: 900; 
+    width:100%;
+}
+
+.btn-payment:hover,
+.btn-payment:focus {
+    background-color: #766CF1;
+    text-decoration: none;
+}
+
+.btn-cancel {
+    display: block;
+    margin-top: 24px;
+    text-decoration: none;
+    font-size: 0.938rem;
+    color: var(--desaturated-blue);
+    font-weight: 900;
+}
+
+.btn-cancel:hover,
+.btn-cancel:focus {
+    color: #1F2E55;
 }
 
 .push {
