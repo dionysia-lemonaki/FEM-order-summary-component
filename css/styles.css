@@ -121,6 +121,10 @@ img {
     color: #766CF1;
 }
 
+.push {
+    margin-left: auto;
+}
+
 .btn-payment {
     display: block;
     margin-top: 24px;
@@ -155,9 +159,12 @@ img {
     color: #1F2E55;
 }
 
-.push {
-    margin-left: auto;
+/* Attribution styles */
+.attribution,
+.attribution a {
+    color: var(--bright-blue);
 }
+
 
 /* Styles for larger screens */
 
