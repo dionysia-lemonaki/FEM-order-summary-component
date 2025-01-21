@@ -84,14 +84,14 @@ img {
     margin-top: 20px;
     background-color: var(--very-pale-blue);
     border-radius: 11px;
-    padding: 16px;
+    padding: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .plan-details {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .plan-type {
@@ -113,6 +113,7 @@ img {
     border: none;
     background: none;
     text-decoration: underline;
+    padding: 0;
 }
 
 .btn-change-plan:hover,
