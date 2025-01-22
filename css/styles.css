@@ -88,6 +88,7 @@ img {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 
@@ -119,6 +120,8 @@ img {
     text-decoration: none;
     color: #766CF1;
 }
+
+
 
 .btn-payment {
     display: block;
