@@ -87,11 +87,9 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
-.plan-details {
-    margin-left: 10px;
-}
 
 .plan-type {
     color: var(--dark-blue);
@@ -113,16 +111,13 @@ img {
     background: none;
     text-decoration: underline;
     padding: 0;
+    margin-left: auto;
 }
 
 .btn-change-plan:hover,
 .btn-change-plan:focus {
     text-decoration: none;
     color: #766CF1;
-}
-
-.push {
-    margin-left: auto;
 }
 
 .btn-payment {
@@ -179,6 +174,10 @@ img {
 
     .card-title {
         font-size: 1.75rem;
+    }
+
+    .plan {
+        padding: 24px;
     }
 
     .card-description,
